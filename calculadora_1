@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num1, num2, resultado;
+    char op;
+    
+    cout << "Digite o primeiro numero: ";
+    cin >>num1;
+    
+    cout << "Digite uma das operações [+, -, /, *, ^, E]";
+    cin >> op;
+    
+    cout << "Digite o segundo numero: ";
+    cin >> num2;
+    
+    switch(op)
+    {
+     case '+':   
+        resultado = num1 + num2;
+        break;
+        
+    case '-':   
+        resultado = num1 - num2;
+        break;
+        
+    case '/':   
+        resultado = num1 / num2;
+        break;   
+        
+    case '*':   
+        resultado = num1 * num2;
+        break;
+        
+   /* case '^':   
+        resultado = num1 ^ num2;
+        break; 
+        
+    case 'E':   
+        resultado = num1 E num2;
+        break; */   
+        
+    }
+    
+}
